@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin: 0;
+	font-family:Helvetica;
+	background: weight;
+	font-size: 20px;
+}
+.wraper{
+	width: 1000px;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+.head{
+	margin-top:41px;
+	margin-left: 70px;	
+	display: inline-block;
+	text-align: center;
+}
+.head img{
+	width: 110px;
+	display: inline-block;
+	float: left;
+}
+.head h1{
+	display: inline-block;
+	margin: 24px 105px;
+	font-size: 48px;
+	font-weight: 500;
+}
+/*====================================================================*/
+.wraper-tabs{
+	width: 920px;
+	margin: 35px 40px;
+	border: 1px solid black;
+	height: 550px;
+	background-color: #D9D2E9;
+}
+#link{
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	position: relative;
+	left:94%;
+	bottom: 610px;
+	background: url(hillel_test12.png) no-repeat;
+}
+#tabs{
+	width: 260px;
+	height: 550px;
+	float: left;
+	border-right: 1px solid black;
+	margin-right: 60px;
+	background-color: #CFE2F3;
+}
+#items{
+	list-style: none;
+}
+#tabs ul li{
+	height: 53px;
+	width: 260px;
+	border-bottom: 1px solid black;
+}
+.active{
+	background-color:#D9D2E9;
+	border-right: 1px solid #D9D2E9;
+}
+li a{
+	color: #444444;
+	text-decoration: none;
+	font-size: 26px;
+	padding: 12px 150px 12px 12px;
+	line-height: 53px;
+}
+.tabs-text{
+	display: none;
+	padding: 10px;
+}
+#tabs:after{
+	content: url(logo11.png);
+	position: relative;
+	left: 98px;
+	top: 150px;
+}
+li a:hover{
+	color: #000000;
+}
+li.active a{
+	color: #000000;
+}
+p{
+	display: block;
+	width: 500px;
+	margin: 30px;
+	line-height: 35px;
+	margin-left: 280px;
+	background: #DED7EE;
+}
